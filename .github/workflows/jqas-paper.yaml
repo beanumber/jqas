@@ -29,7 +29,7 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - run: |
           quarto --version
-#          quarto install tinytex
+          quarto install tinytex
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
