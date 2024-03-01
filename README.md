@@ -1,5 +1,8 @@
-
 # Quarto template for the *Journal of Quantitative Analysis in Sports*
+
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/beanumber/jqas/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/beanumber/jqas/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
 
 ## Creating a New Article
 
