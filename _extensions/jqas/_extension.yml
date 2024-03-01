@@ -10,6 +10,12 @@ contributes:
         - jqas.lua
     pdf:
       include-in-header: header.tex
+      format-resources:
+        - dgruyter.ist
+        - dgruyter.sty
+        - dgruyter.xdy
+      template-partials:
+        - "partials/doc-class.tex"
     html:
       css: styles.css
 

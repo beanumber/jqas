@@ -1,5 +1,5 @@
 ---
-title: JQAS Template
+title: Quarto Template for JQAS Submissions
 format:
   jqas-pdf:
     keep-tex: true  
@@ -17,13 +17,20 @@ author:
     orcid: 0000-0000-0000-0000
     email: sm@example.org
     url: https://example.org/
+    attributes:
+      equal-contributor: true
+      corresponding: true
   - name: Eliza Dealloc
     affiliations:
       - Another Affiliation
+    attributes:
+      equal-contributor: true
 abstract: |
   This document is a template demonstrating the Journal of Quantitative Analysis in Sports format.
 keywords: [template, demo]
-bibliography: bibliography.bib  
+bibliography: bibliography.bib
+classoption:
+ - USenglish
 ---
 
 ## Introduction {#sec-intro}
