@@ -1,5 +1,5 @@
 ---
-title: Jqas Template
+title: JQAS Template
 format:
   jqas-pdf:
     keep-tex: true  
@@ -21,7 +21,7 @@ author:
     affiliations:
       - Another Affiliation
 abstract: |
-  This document is a template demonstrating the Jqas format.
+  This document is a template demonstrating the Journal of Quantitative Analysis in Sports format.
 keywords: [template, demo]
 bibliography: bibliography.bib  
 ---
