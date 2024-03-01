@@ -30,4 +30,7 @@ bibliography: bibliography.bib
 
 *TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
 
+@CameronTrivedi2013
+
+## References
 
