@@ -6,10 +6,10 @@ on:
   pull_request:
     branches: [main, master]
 
-name: R-CMD-check
+name: jqas-paper
 
 jobs:
-  R-CMD-check:
+  jqas-paper:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -35,4 +35,4 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
         with:
           to: pdf # equivalent to `quarto render --to html`
-          path: template.tex
+          path: template.qmd
